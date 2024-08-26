@@ -104,7 +104,7 @@
       alert("「THEAD」とは「table header」表の行（水平方向）をグループ化するタグです。<thead>～</thead>で囲まれた内容は、表のヘッダ部分としてグループ化され、<table>の中はヘッダ部分を表す<tread>～</tread>部分、ボディ（表の本体）部分<tbody>～</tbody>、フッタ部分<tfoot>～</tfoot>に分けられます。このように分けることでブラウザはヘッダとフッタを先読みして表示したり、ヘッダとフッタを固定表示したままボディ部分だけをスクロールさせたりすることができます。ただし、これらのタグに対応していないブラウザの場合は、フッタをボディより上に表示してしまうことがあります。 \n\n<thread>\n\n</thread>");
       return;
     }
-    navigator.clipboard.writeText("<table>\n\n</thead>");
+    navigator.clipboard.writeText("<thead>\n\n</thead>");
   }
   function Button11(str) {
     if (event.ctrlKey) {
